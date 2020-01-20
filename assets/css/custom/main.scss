@@ -1,5 +1,33 @@
-/*      BANNER      */
-/*      /BANNER      */
-
 /*      MAIN      */
+
+/* Inquiry Form */
+.inquiry-form {
+  padding-top: 85px;
+  padding-bottom: 100px;
+
+  .inquiry-form-heading {
+    font-family: $Raleway-Bold;
+  }
+
+  .inquiry-form-inner {
+
+    form {
+
+      input, textarea, button {
+        font-family: $Raleway-Medium;
+        font-size: 1.125rem;
+      }
+
+      input, textarea {
+        border-radius: 0 !important;
+      }
+
+    }
+
+  }
+
+}
+
+/* /Inquiry Form */
+
 /*      /MAIN      */

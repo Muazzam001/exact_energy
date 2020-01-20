@@ -7,6 +7,11 @@
 /*      FONTS      */
 @import "fonts";
 /*      /FONTS      */
+/*      PARTIALS      */
+@import "partials/color";
+@import "partials/font";
+@import "partials/variable";
+/*      /PARTIALS      */
 @import "defaults";
 @import "header";
 @import "main";

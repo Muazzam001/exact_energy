@@ -1,6 +1,7 @@
+<!-- main -->
+<main>
 
-<!-- header -->
-<header>
+    <?php include "inquiry-home.php" ?>
 
-</header>
-<!-- /header -->
+</main>
+<!-- /main -->
