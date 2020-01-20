@@ -1,2 +1,77 @@
 /*      HEADER      */
+
+/* Home Banner */
+
+#banner {
+
+  .banner-menu {
+    max-width: 310px;
+    z-index: 99;
+
+    &:before {
+      content: '';
+      background: #11294a;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 80%;
+    }
+
+    .banner-menu-wrapper {
+      z-index: 999;
+    }
+
+  }
+
+  .carousel {
+
+    .carousel-indicators {
+      bottom: 160px;
+
+      li {
+
+        &.active {
+          background-color: #499ed7;
+          background-clip: padding-box;
+        }
+
+      }
+
+    }
+
+    .carousel-item {
+      height: 100vh;
+      min-height: 350px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      .carousel-caption {
+        position: unset;
+
+        .head {
+          font-family: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
+        }
+
+        .lead {
+          font-family: MyriadPro, OpenSans, Arial, Helvetica, sans-serif;
+          max-width: 725px;
+          letter-spacing: 1px;
+        }
+
+      }
+
+    }
+  }
+
+}
+
+/* /Home Banner */
+
 /*      /HEADER      */

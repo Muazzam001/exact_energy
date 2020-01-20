@@ -8,7 +8,7 @@
             <img class="img-fluid img-logo align-self-center" src="assets/images/logo.png" alt="Footer Logo">
         </span>
         <span class="footer-url color-blue d-flex align-content-center justify-content-center px-1">
-            <span class="align-self-center">www.exact-energy.com</span>
+            <span class="align-self-center">www.exact-energy.ca</span>
         </span>
     </div>
 </footer>
