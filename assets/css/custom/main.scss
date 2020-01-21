@@ -43,9 +43,9 @@
 /* Welcome Section */
 
 .welcome-section {
+  background: $blue-dark url("../../images/bg-welcome.jpg") no-repeat center /cover;
   padding-top: 80px;
   padding-bottom: 120px;
-  background: $blue-dark url("../../images/bg-welcome.jpg") no-repeat center /cover;
 
   .img-fixed {
     z-index: 0;
@@ -71,8 +71,10 @@
 
   .misarranged {
     top: -150px;
-    border-radius: 2px;
     color: $gray;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    border-radius: 2px;
 
     .img-fixed {
 
