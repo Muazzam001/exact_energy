@@ -1,6 +1,6 @@
 <!-- header -->
 <header id="header-home" class="w-100">
-    <div id="banner" class="vh-100 position-relative">
+    <div id="banner" class="position-relative">
 
         <div id="banner-menu" class="banner-menu position-absolute w-100 h-100">
             <div class="banner-menu-wrapper d-flex flex-column justify-content-between h-100">
@@ -160,8 +160,10 @@
             <!--            </div>-->
 
             <!-- Next Section controls -->
-            <div class="nexr-section mb-0 d-none d-md-flex justify-content-center align-items-center">
-                <i class="fas fa-long-arrow-alt-down"></i>
+            <div class="next-section mb-0 d-none d-md-flex justify-content-center align-items-center">
+                <a href="#inquiry-form">
+                    <i class="fas fa-long-arrow-alt-down text-white"></i>
+                </a>
             </div>
         </div>
     </div>

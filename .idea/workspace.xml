@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a92d47d-0a7c-4192-9685-cdd0462a37c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/custom/partials/_color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/custom/partials/_font.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/custom/partials/_variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inquiry-home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/welcome-home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom/defaults.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/defaults.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/footer.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/header.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/medias.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/medias.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom/partials/_font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/partials/_font.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banner-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/banner-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inquiry-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/inquiry-home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-home.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,50 +33,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/custom/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="-67">
+              <caret line="51" column="15" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="51" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inquiry-home.php">
+        <entry file="file://$PROJECT_DIR$/assets/css/custom/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+            <state relative-caret-position="170">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="e#69#1260#0" />
+                <element signature="e#1302#1518#0" />
+                <element signature="e#1539#2097#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/custom/fonts.scss">
+        <entry file="file://$PROJECT_DIR$/main-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/custom/partials/_font.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/banner-home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -93,8 +65,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/custom/defaults.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1616">
-              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            <state relative-caret-position="135">
+              <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/welcome-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inquiry-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -119,6 +109,9 @@
       <find>nav-text ml-2</find>
       <find>banner-menu-main</find>
       <find>navbar navbar-expand-lg</find>
+      <find>nexr-section</find>
+      <find>.inquiry-form</find>
+      <find>inquiry-form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,15 +140,17 @@
         <option value="$PROJECT_DIR$/assets/css/custom/_font.scss" />
         <option value="$PROJECT_DIR$/assets/css/custom/partials/_variable.scss" />
         <option value="$PROJECT_DIR$/assets/css/custom/partials/_color.scss" />
-        <option value="$PROJECT_DIR$/assets/css/custom/header.scss" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/css/custom/header.scss" />
+        <option value="$PROJECT_DIR$/banner-home.php" />
+        <option value="$PROJECT_DIR$/assets/welcome-home.php" />
         <option value="$PROJECT_DIR$/main-home.php" />
+        <option value="$PROJECT_DIR$/inquiry-home.php" />
         <option value="$PROJECT_DIR$/assets/css/custom/defaults.scss" />
         <option value="$PROJECT_DIR$/assets/css/custom/fonts.scss" />
         <option value="$PROJECT_DIR$/assets/css/custom/partials/_font.scss" />
         <option value="$PROJECT_DIR$/assets/css/custom/main.scss" />
-        <option value="$PROJECT_DIR$/inquiry-home.php" />
-        <option value="$PROJECT_DIR$/banner-home.php" />
+        <option value="$PROJECT_DIR$/welcome-home.php" />
       </list>
     </option>
   </component>
@@ -163,10 +158,10 @@
     <scope name="Local" pattern="file[loginPage]:assets/css/custom/*" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="860" />
-    <option name="y" value="118" />
-    <option name="width" value="1445" />
-    <option name="height" value="780" />
+    <option name="x" value="169" />
+    <option name="y" value="58" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,10 +214,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\exact_energy" />
       <recent name="E:\Installation\xampp\htdocs\exact_energy\assets\css\custom\partials" />
     </key>
   </component>
@@ -259,12 +256,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45744000" />
+    <option name="totallyTimeSpent" value="54428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14249037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10941321" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,7 +273,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" visible="true" weight="0.3261745" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" visible="true" weight="0.22620381" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012837" side_tool="true" visible="true" weight="0.3261745" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="11" />
@@ -367,9 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/_fonts.scss" />
     <entry file="file://$PROJECT_DIR$/assets/css/custom/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -377,22 +373,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/custom/partials/_variable.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/partials/_color.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -401,72 +383,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="132" selection-start-line="131" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/defaults.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1616">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/partials/_font.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inquiry-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/banner-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/partials/_color.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/partials/_font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/defaults.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inquiry-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="e#69#1260#0" />
+            <element signature="e#1302#1518#0" />
+            <element signature="e#1539#2097#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="51" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welcome-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>

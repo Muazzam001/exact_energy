@@ -150,12 +150,17 @@
 
 body {
   font-family: $MyriadPro;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 .banner-font {
   font-family: $Raleway;
   line-height: 1.5;
+}
+
+a {
+  color: $blue;
 }
 
 /*      Colors      */
@@ -211,5 +216,4 @@ body {
 }
 
 /*      /DEFAULTS      */
-
 

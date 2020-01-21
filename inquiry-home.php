@@ -1,5 +1,5 @@
 <!--    inquiry     -->
-<div id="inquiry-form" class="inquiry-form vh-100 position-relative">
+<section id="inquiry-form" class="inquiry-form position-relative">
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
@@ -50,17 +50,17 @@
                         </div>
                     </div>
                     <div class="col-md-7 order-md-0">
-                        <div class="h-100">
-                            <div class="h-50 w-100">
+                        <div class="h-100 contact-form-query">
+                            <div class="w-100">
                                 <img class="w-100 h-100" src="assets/images/inquiry-form.png" alt="Form Image">
                             </div>
-                            <div class="h-50">
-                                <div class="bg-blue-dark text-white">
-                                    <h3 class="mb-0">Need a Quick 6 Star Report for Your Home?</h3>
-                                    <h4 class="mb-0">Call us at 7783187273</h4>
+                            <div>
+                                <div class="bg-blue-dark text-white text-center text-uppercase px-5 py-3">
+                                    <h3 class="mb-0 heading">Need a Quick 6 Star Report for Your Home?</h3>
+                                    <h4 class="mb-0 p-1 subHeading">Call us at 7783187273</h4>
                                 </div>
-                                <div class="bg-green text-white">
-                                    <h4 class="text-uppercase ">Click here for CONTACT US</h4>
+                                <div class="bg-green text-white text-center text-uppercase px-4 py-2">
+                                    <h4 class="text-uppercase mb-0 subHeading">Click here for CONTACT US</h4>
                                 </div>
                             </div>
                         </div>
@@ -70,5 +70,5 @@
             <div class="col-md-1"></div>
         </div>
     </div>
-</div>
+</section>
 <!--    /inquiry     -->

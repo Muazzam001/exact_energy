@@ -1,13 +1,18 @@
 /*      MAIN      */
 
+.inquiry-form-heading, .welcome-heading, .contact-form-query .heading {
+  font-family: $Raleway-Bold;
+}
+
+.contact-form-query .subHeading {
+  font-family: $Raleway-Medium;
+}
+
+
 /* Inquiry Form */
 .inquiry-form {
-  padding-top: 85px;
+  padding-top: 80px;
   padding-bottom: 100px;
-
-  .inquiry-form-heading {
-    font-family: $Raleway-Bold;
-  }
 
   .inquiry-form-inner {
 
@@ -26,8 +31,61 @@
 
   }
 
+  .contact-form-query {
+
+  }
+
 }
 
 /* /Inquiry Form */
+
+
+/* Welcome Section */
+
+.welcome-section {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background: $blue-dark url("../../images/bg-welcome.jpg") no-repeat center /cover;
+
+  .img-fixed {
+    z-index: 0;
+    top: -80px;
+
+    img {
+      max-height: 400px;
+    }
+  }
+
+  .welcome-inner {
+
+    .welcome-heading {
+      font-size: 2.25rem;
+      color: $blue;
+    }
+
+    p {
+      font-family: $Raleway;
+      font-size: 1.3rem;
+    }
+  }
+
+  .misarranged {
+    top: -150px;
+    border-radius: 2px;
+    color: $gray;
+
+    .img-fixed {
+
+    }
+    p {
+      font-family: $MyriadPro-Light;
+      font-size: 1.3rem;
+    }
+
+  }
+
+}
+
+/* /Welcome Section */
 
 /*      /MAIN      */
