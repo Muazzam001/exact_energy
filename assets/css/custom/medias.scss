@@ -50,6 +50,20 @@
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  //Font Size Start
+
+  @for $i from 0 through 50 {
+
+    .font-size-sm-#{$i} {
+      font-size: #{$i/12}rem !important;
+    }
+
+  }
+
+  //Font Size End
+
+
   .w-sm-5 {
     width: 5% !important;
   }
@@ -163,41 +177,74 @@
   }
 
   .overflow-sm-hidden {
-    overflow: hidden;
+    overflow: hidden !important;
   }
 
   .overflow-sm-x-hidden {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .overflow-sm-y-hidden {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
 
   .overflow-sm-visible {
-    overflow: visible;
+    overflow: visible !important;
   }
 
   .overflow-sm-x-visible {
-    overflow-x: visible;
+    overflow-x: visible !important;
   }
 
   .overflow-sm-y-visible {
-    overflow-y: visible;
+    overflow-y: visible !important;
   }
 
   .overflow-sm-x-auto {
-    overflow-x: auto;
+    overflow-x: auto !important;
   }
 
   .overflow-sm-y-auto {
-    overflow-y: auto;
+    overflow-y: auto !important;
+  }
+
+  .position-sm-static {
+    position: static !important;
+  }
+
+  .position-sm-relative {
+    position: relative !important;
+  }
+
+  .position-sm-fixed {
+    position: fixed !important;
+  }
+
+  .position-sm-absolute {
+    position: absolute !important;
+  }
+
+  .position-sm-sticky {
+    position: sticky !important;
   }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+  //Font Size Start
+
+  @for $i from 0 through 50 {
+
+    .font-size-md-#{$i} {
+      font-size: #{$i/12}rem !important;
+    }
+
+  }
+
+  //Font Size End
+
   .w-md-5 {
     width: 5% !important;
   }
@@ -311,40 +358,69 @@
   }
 
   .overflow-md-hidden {
-    overflow: hidden;
+    overflow: hidden !important;
   }
 
   .overflow-md-x-hidden {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .overflow-md-y-hidden {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
 
   .overflow-md-visible {
-    overflow: visible;
+    overflow: visible !important;
   }
 
   .overflow-md-x-visible {
-    overflow-x: visible;
+    overflow-x: visible !important;
   }
 
   .overflow-md-y-visible {
-    overflow-y: visible;
+    overflow-y: visible !important;
   }
 
   .overflow-md-x-auto {
-    overflow-x: auto;
+    overflow-x: auto !important;
   }
 
   .overflow-md-y-auto {
-    overflow-y: auto;
+    overflow-y: auto !important;
   }
+
+  .position-md-static {
+    position: static !important;
+  }
+
+  .position-md-relative {
+    position: relative !important;
+  }
+
+  .position-md-fixed {
+    position: fixed !important;
+  }
+
+  .position-md-absolute {
+    position: absolute !important;
+  }
+
+  .position-md-sticky {
+    position: sticky !important;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+  @for $i from 0 through 50 {
+
+    .font-size-lg-#{$i} {
+      font-size: #{$i/12}rem !important;
+    }
+
+  }
 
   .w-lg-5 {
     width: 5% !important;
@@ -459,35 +535,55 @@
   }
 
   .overflow-lg-hidden {
-    overflow: hidden;
+    overflow: hidden !important;
   }
 
   .overflow-lg-x-hidden {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .overflow-lg-y-hidden {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
 
   .overflow-lg-visible {
-    overflow: visible;
+    overflow: visible !important;
   }
 
   .overflow-lg-x-visible {
-    overflow-x: visible;
+    overflow-x: visible !important;
   }
 
   .overflow-lg-y-visible {
-    overflow-y: visible;
+    overflow-y: visible !important;
   }
 
   .overflow-lg-x-auto {
-    overflow-x: auto;
+    overflow-x: auto !important;
   }
 
   .overflow-lg-y-auto {
-    overflow-y: auto;
+    overflow-y: auto !important;
+  }
+
+  .position-lg-static {
+    position: static !important;
+  }
+
+  .position-lg-relative {
+    position: relative !important;
+  }
+
+  .position-lg-fixed {
+    position: fixed !important;
+  }
+
+  .position-lg-absolute {
+    position: absolute !important;
+  }
+
+  .position-lg-sticky {
+    position: sticky !important;
   }
 
 }
@@ -501,6 +597,15 @@
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  @for $i from 0 through 50 {
+
+    .font-size-xl-#{$i} {
+      font-size: #{$i/12}rem !important;
+    }
+
+  }
+
   .w-xl-5 {
     width: 5% !important;
   }
@@ -614,35 +719,55 @@
   }
 
   .overflow-xl-hidden {
-    overflow: hidden;
+    overflow: hidden !important;
   }
 
   .overflow-xl-x-hidden {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .overflow-xl-y-hidden {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
 
   .overflow-xl-visible {
-    overflow: visible;
+    overflow: visible !important;
   }
 
   .overflow-xl-x-visible {
-    overflow-x: visible;
+    overflow-x: visible !important;
   }
 
   .overflow-xl-y-visible {
-    overflow-y: visible;
+    overflow-y: visible !important;
   }
 
   .overflow-xl-x-auto {
-    overflow-x: auto;
+    overflow-x: auto !important;
   }
 
   .overflow-xl-y-auto {
-    overflow-y: auto;
+    overflow-y: auto !important;
+  }
+
+  .position-lg-static {
+    position: static !important;
+  }
+
+  .position-lg-relative {
+    position: relative !important;
+  }
+
+  .position-lg-fixed {
+    position: fixed !important;
+  }
+
+  .position-lg-absolute {
+    position: absolute !important;
+  }
+
+  .position-lg-sticky {
+    position: sticky !important;
   }
 
 }

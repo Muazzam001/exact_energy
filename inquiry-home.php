@@ -12,36 +12,33 @@
                                 <form action="">
                                     <div class="form-group">
                                         <label for="fname" class="sr-only">First Name</label>
-                                        <input type="text" class="form-control text-uppercase" required
-                                               placeholder="FIRST NAME*"
-                                               id="fname">
+                                        <input class="form-control text-uppercase border-radius-0 font-size-md-14 font-size-12"
+                                               type="text" placeholder="FIRST NAME*" id="fname" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="lname" class="sr-only">Last Name</label>
-                                        <input type="text" class="form-control text-uppercase" required
-                                               placeholder="LAST NAME*"
-                                               id="lname">
+                                        <input class="form-control text-uppercase border-radius-0 font-size-md-14 font-size-12"
+                                               type="text" placeholder="LAST NAME*" id="lname" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="email" class="sr-only">Email address</label>
-                                        <input type="email" class="form-control text-uppercase" required
-                                               placeholder="EMAIL*"
-                                               id="email">
+                                        <input class="form-control text-uppercase border-radius-0 font-size-md-14 font-size-12"
+                                               type="email" placeholder="EMAIL*" id="email" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="contact" class="sr-only">Contact Number</label>
-                                        <input type="tel" class="form-control text-uppercase" required
-                                               placeholder="CONTACT NUMBER*"
-                                               id="contact">
+                                        <input class="form-control text-uppercase border-radius-0 font-size-md-14 font-size-12"
+                                               type="tel" placeholder="CONTACT NUMBER*" id="contact" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="message" class="sr-only">Message</label>
-                                        <textarea class="form-control text-uppercase" rows="3" id="message"
-                                                  placeholder="TYPE YOUR MESSAGE..."></textarea>
+                                        <textarea
+                                                class="form-control text-uppercase border-radius-0 font-size-md-14 font-size-12"
+                                                rows="3" id="message" placeholder="TYPE YOUR MESSAGE..."></textarea>
                                     </div>
                                     <div class="form-group px-2">
                                         <button type="submit"
-                                                class="btn btn-block btn-custom text-uppercase text-white">
+                                                class="btn btn-block bg-blue text-uppercase text-white border-radius-4 font-weight-bold font-size-md-14 font-size-12 shadow-none">
                                             Send
                                         </button>
                                     </div>

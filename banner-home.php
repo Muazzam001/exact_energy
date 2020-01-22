@@ -63,7 +63,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item py-1">
-                                        <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
+                                        <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1 border-bottom-0"
                                            href="#">
                                             <!--                                            <img class="img-fluid" src="assets/images/icon-contact.png" alt="nav-icon">-->
                                             <i class="fas fa-phone-volume fa-2x nav-icon mt-n1 rotate-n45"></i>

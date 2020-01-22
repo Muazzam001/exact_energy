@@ -125,27 +125,47 @@
 }
 
 .overflow-x-hidden {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .overflow-y-hidden {
-  overflow-y: hidden;
+  overflow-y: hidden !important;
 }
 
 .overflow-x-visible {
-  overflow-x: visible;
+  overflow-x: visible !important;
 }
 
 .overflow-y-visible {
-  overflow-y: visible;
+  overflow-y: visible !important;
 }
 
 .overflow-x-auto {
-  overflow-x: auto;
+  overflow-x: auto !important;
 }
 
 .overflow-y-auto {
-  overflow-y: auto;
+  overflow-y: auto !important;
+}
+
+.position-static {
+  position: static !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-fixed {
+  position: fixed !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.position-sticky {
+  position: sticky !important;
 }
 
 body {
@@ -185,6 +205,18 @@ a {
   color: $gray;
 }
 
+.color-gray-dark {
+  color: $gray-dark;
+}
+
+.color-gray-exdark {
+  color: $gray-exdark;
+}
+
+.color-gray-light {
+  color: $gray-light;
+}
+
 /*      /Colors      */
 
 /*      Backgrounds      */
@@ -209,11 +241,19 @@ a {
   background: $gray;
 }
 
-/*      /Backgrounds      */
-
-.btn-custom {
-  background: $blue;
+.bg-gray-dark {
+  background: $gray-dark;
 }
+
+.bg-gray-exdark {
+  background: $gray-exdark;
+}
+
+.bg-gray-light {
+  background: $gray-light;
+}
+
+/*      /Backgrounds      */
 
 /*      Rotations      */
 
@@ -222,6 +262,8 @@ a {
 @for $i from 0 through 360 {
 
   .rotate-#{$i} {
+    -webkit-transform: rotate(#{$i}deg);
+    -ms-transform: rotate(#{$i}deg);
     transform: rotate(#{$i}deg);
   }
 
@@ -234,6 +276,8 @@ a {
 @for $i from 0 through 360 {
 
   .rotate-n#{$i} {
+    -webkit-transform: rotate(-#{$i}deg);
+    -ms-transform: rotate(-#{$i}deg);
     transform: rotate(-#{$i}deg);
   }
 
@@ -243,6 +287,50 @@ a {
 
 /*      /Rotations      */
 
+//Border Radius Start
+
+@for $i from 0 through 360 {
+
+  .border-radius-#{$i} {
+    -webkit-border-radius: #{$i}px !important;
+    border-radius: #{$i}px !important;
+  }
+
+  .border-radius-top-left-#{$i} {
+    -webkit-border-top-left-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}px !important;
+  }
+
+  .border-radius-bottom-left-#{$i} {
+    -webkit-border-bottom-left-radius: #{$i}px !important;
+    border-bottom-left-radius: #{$i}px !important;
+  }
+
+  .border-radius-top-right-#{$i} {
+    -webkit-border-top-left-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}px !important;
+  }
+
+  .border-radius-bottom-right-#{$i} {
+    -webkit-border-bottom-right-radius: #{$i}px !important;
+    border-bottom-right-radius: #{$i}px !important;
+  }
+
+}
+
+//Border Radius End
+
+//Font Size Start
+
+@for $i from 0 through 50 {
+
+  .font-size-#{$i} {
+    font-size: #{$i/12}rem !important;
+  }
+
+}
+
+//Font Size End
 
 /*      /DEFAULTS      */
 
