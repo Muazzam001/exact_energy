@@ -168,14 +168,58 @@
   position: sticky !important;
 }
 
+//Font Family Start
+
+.font-myriad {
+  font-family: $font-myriad;
+}
+
+.font-myriad-light {
+  font-family: $font-myriad-light;
+}
+
+.font-myriad-bold {
+  font-family: $font-myriad-bold;
+}
+
+.font-opensans {
+  font-family: $font-opensans;
+}
+
+.font-raleway {
+  font-family: $font-raleway;
+}
+
+.font-raleway-medium {
+  font-family: $font-raleway-medium;
+}
+
+.font-raleway-bold {
+  font-family: $font-raleway-bold;
+}
+
+//Font Family End
+
+//Font Size Start
+
+@for $i from 0 through 50 {
+
+  .font-size-#{$i} {
+    font-size: #{$i/12}rem !important;
+  }
+
+}
+
+//Font Size End
+
 body {
-  font-family: $MyriadPro;
+  font-family: $font-myriad;
   font-size: 1rem;
   line-height: 1.5;
 }
 
 .banner-font {
-  font-family: $Raleway;
+  font-family: $font-raleway;
   line-height: 1.5;
 }
 
@@ -187,6 +231,14 @@ a {
 
 .color-blue {
   color: $blue;
+}
+
+.color-blue-light {
+  color: $blue-light;
+}
+
+.color-bluex {
+  color: $bluex;
 }
 
 .color-blue-dark {
@@ -217,12 +269,40 @@ a {
   color: $gray-light;
 }
 
+.color-gray-lightx {
+  color: $gray-lightx;
+}
+
+.color-gray-brown {
+  color: $gray-brown;
+}
+
+.color-orange {
+  color: $orange;
+}
+
+.color-magenta {
+  color: $magenta;
+}
+
+.color-purple {
+  color: $purple;
+}
+
 /*      /Colors      */
 
 /*      Backgrounds      */
 
 .bg-blue {
   background: $blue;
+}
+
+.bg-blue-light {
+  background: $blue-light;
+}
+
+.bg-bluex {
+  background: $bluex;
 }
 
 .bg-blue-dark {
@@ -252,6 +332,23 @@ a {
 .bg-gray-light {
   background: $gray-light;
 }
+
+.bg-gray-brown {
+  background: $gray-brown;
+}
+
+.bg-orange {
+  background: $orange;
+}
+
+.bg-magenta {
+  background: $magenta;
+}
+
+.bg-purple {
+  background: $purple;
+}
+
 
 /*      /Backgrounds      */
 
@@ -287,6 +384,44 @@ a {
 
 /*      /Rotations      */
 
+//Margin Start
+
+@for $i from 0 through 6 {
+
+  .m-n#{$i} {
+    margin: -#{$i/4}rem !important;
+  }
+
+  .mx-n#{$i} {
+    margin-left: -#{$i/4}rem !important;
+    margin-right: -#{$i/4}rem !important;
+  }
+
+  .my-n#{$i} {
+    margin-top: -#{$i/4}rem !important;
+    margin-bottom: -#{$i/4}rem !important;
+  }
+
+  .mt-n#{$i} {
+    margin-top: -#{$i/4}rem !important;
+  }
+
+  .mr-n#{$i} {
+    margin-right: -#{$i/4}rem !important;
+  }
+
+  .mb-n#{$i} {
+    margin-bottom: -#{$i/4}rem !important;
+  }
+
+  .ml-n#{$i} {
+    margin-left: -#{$i/4}rem !important;
+  }
+
+}
+
+//Margin End
+
 //Border Radius Start
 
 @for $i from 0 through 360 {
@@ -319,18 +454,6 @@ a {
 }
 
 //Border Radius End
-
-//Font Size Start
-
-@for $i from 0 through 50 {
-
-  .font-size-#{$i} {
-    font-size: #{$i/12}rem !important;
-  }
-
-}
-
-//Font Size End
 
 /*      /DEFAULTS      */
 

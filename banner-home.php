@@ -1,6 +1,6 @@
 <!-- header -->
 <header id="header-home" class="w-100">
-    <div id="banner" class="position-relative">
+    <section id="banner" class="banner-section position-relative">
 
         <div id="banner-menu" class="banner-menu position-absolute w-100 h-100">
             <div class="banner-menu-wrapper d-flex flex-column justify-content-between h-100">
@@ -125,7 +125,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('assets/images/banner.jpg')">
                     <!--                    <img class="carousel-image" src="assets/images/banner.jpg" alt="Banner Image">-->
-                    <div class="carousel-caption d-none d-md-flex justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
+                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
                         <h3 class="head text-uppercase">Welcome to Exact <span
                                     class="color-green">Energy.</span>
                         </h3>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">
                     <!--                    <img class="carousel-image" src="assets/images/banner.jpg" alt="Banner Image">-->
-                    <div class="carousel-caption d-none d-md-flex justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
+                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
                         <h3 class="head text-uppercase">Welcome to Exact <span
                                     class="color-green">Energy.</span>
                         </h3>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">
                     <!--                    <img class="carousel-image" src="assets/images/banner.jpg" alt="Banner Image">-->
-                    <div class="carousel-caption d-none d-md-flex justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
+                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
                         <h3 class="head text-uppercase">Welcome to Exact <span
                                     class="color-green">Energy.</span>
                         </h3>
@@ -172,6 +172,6 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 </header>
 <!-- /header -->

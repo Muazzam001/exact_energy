@@ -15,69 +15,90 @@
             <div class="carousel-item active">
                 <div class="row">
                     <div class="col-md-2 bg-gray-light">
-                        Hello World
+                        <div class="service-count d-flex justify-content-center align-items-center h-100 py-4 py-md-0">
+                            <img class="img-fluid" src="assets/images/service-count.png" alt="Service Logo">
+                        </div>
                     </div>
-                    <div class="col-md-3 bg-whiteyt">
-                        <div class="carousel-caption d-md-flex justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
-                            <h3 class="head text-uppercase color-blue">Energuide Rating</h3>
-                            <p class="lead px-4 color-gray-dark font-size-10">EXACT ENERGY team will work with you to meet the energy target
-                                requirements for your new projects located in City of Vancouver.</p>
+                    <div class="col-md-3 bg-white">
+                        <div class="carousel-caption d-flex justify-content-center align-items-center flex-column h-100 text-center position-relative py-md-0">
+                            <div class="service-logo mb-2">
+                                <img class="img-fluid" src="assets/images/slider-1.png" alt="Service Logo">
+                            </div>
+                            <h3 class="head text-uppercase color-blue pb-1 pt-2 font-raleway-bold font-size-md-26 font-size-20">
+                                Energuide Rating</h3>
+                            <p class="lead px-4 color-gray-dark font-raleway font-size-md-14 font-size-12">EXACT ENERGY
+                                team will work with you to meet the energy target requirements for your new projects
+                                located in City of Vancouver.</p>
                             <div class="form-group px-2 py-1">
-                                <button type="button"
-                                        class="btn btn-block bg-blue text-uppercase text-white shadow-none px-5 border-radius-0">
-                                    Read More
+                                <button class="btn btn-block bg-blue text-uppercase text-white font-raleway-bold shadow-none px-5 border-radius-0"
+                                        type="button">Read More
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img class="carousel-image img-fluid" src="assets/images/banner.jpg" alt="Banner Image">
+                        <div class="carousel-image w-100 h-100 ml-md-n4 position-relative position-md-absolute"
+                             style="background-image: url('assets/images/banner.jpg')"></div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row">
                     <div class="col-md-2 bg-gray-light">
-                        Hello World
+                        <div class="service-count d-flex justify-content-center align-items-center h-100 py-4 py-md-0">
+                            <img class="img-fluid" src="assets/images/service-count.png" alt="Service Logo">
+                        </div>
                     </div>
                     <div class="col-md-3 bg-white">
-                        <div class="carousel-caption d-md-flex justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
-                            <h3 class="head text-uppercase color-blue">Energuide Rating</h3>
-                            <p class="lead px-4 color-gray-dark font-size-10">EXACT ENERGY team will work with you to meet the energy target
-                                requirements for your new projects located in City of Vancouver. </p>
+                        <div class="carousel-caption d-flex justify-content-center align-items-center flex-column h-100 text-center position-relative py-md-0">
+                            <div class="service-logo mb-2">
+                                <img class="img-fluid" src="assets/images/slider-1.png" alt="Service Logo">
+                            </div>
+                            <h3 class="head text-uppercase color-blue pb-1 pt-2 font-raleway-bold font-size-md-26 font-size-20">
+                                Energuide Rating</h3>
+                            <p class="lead px-4 color-gray-dark font-raleway font-size-md-14 font-size-12">EXACT ENERGY
+                                team will work with you to meet the energy target requirements for your new projects
+                                located in City of Vancouver.</p>
                             <div class="form-group px-2 py-1">
-                                <button type="button"
-                                        class="btn btn-block bg-blue text-uppercase text-white shadow-none px-5 border-radius-0">
-                                    Read More
+                                <button class="btn btn-block bg-blue text-uppercase text-white font-raleway-bold shadow-none px-5 border-radius-0"
+                                        type="button">Read More
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img class="carousel-image img-fluid" src="assets/images/banner.jpg" alt="Banner Image">
+                        <div class="carousel-image w-100 h-100 ml-md-n4 position-relative position-md-absolute"
+                             style="background-image: url('assets/images/banner.jpg')"></div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row">
                     <div class="col-md-2 bg-gray-light">
-                        Hello World
+                        <div class="service-count d-flex justify-content-center align-items-center h-100 py-4 py-md-0">
+                            <img class="img-fluid" src="assets/images/service-count.png" alt="Service Logo">
+                        </div>
                     </div>
                     <div class="col-md-3 bg-white">
-                        <div class="carousel-caption d-md-flex justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
-                            <h3 class="head text-uppercase color-blue">Energuide Rating</h3>
-                            <p class="lead px-4 color-gray-dark font-size-10">EXACT ENERGY team will work with you to meet the energy target
-                                requirements for your new projects located in City of Vancouver. </p>
+                        <div class="carousel-caption d-flex justify-content-center align-items-center flex-column h-100 text-center position-relative py-md-0">
+                            <div class="service-logo mb-2">
+                                <img class="img-fluid" src="assets/images/slider-1.png" alt="Service Logo">
+                            </div>
+                            <h3 class="head text-uppercase color-blue pb-1 pt-2 font-raleway-bold font-size-md-26 font-size-20">
+                                Energuide Rating</h3>
+                            <p class="lead px-4 color-gray-dark font-raleway font-size-md-14 font-size-12">EXACT ENERGY
+                                team will work with you to meet the energy target requirements for your new projects
+                                located in City of Vancouver.</p>
                             <div class="form-group px-2 py-1">
-                                <button type="button"
-                                        class="btn btn-block bg-blue text-uppercase text-white shadow-none px-5 border-radius-0">
-                                    Read More
+                                <button class="btn btn-block bg-blue text-uppercase text-white font-raleway-bold shadow-none px-5 border-radius-0"
+                                        type="button">Read More
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img class="carousel-image img-fluid" src="assets/images/banner.jpg" alt="Banner Image">
+                        <div class="carousel-image w-100 h-100 ml-md-n4 position-relative position-md-absolute"
+                             style="background-image: url('assets/images/banner.jpg')"></div>
                     </div>
                 </div>
             </div>

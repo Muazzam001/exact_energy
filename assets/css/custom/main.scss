@@ -1,11 +1,11 @@
 /*      MAIN      */
 
 .inquiry-form-heading, .welcome-heading, .contact-form-query .heading {
-  font-family: $Raleway-Bold;
+  font-family: $font-raleway-bold;
 }
 
 .contact-form-query .subHeading {
-  font-family: $Raleway-Medium;
+  font-family: $font-raleway-medium;
 }
 
 
@@ -20,11 +20,7 @@
     form {
 
       input, textarea, button {
-        font-family: $Raleway-Medium;
-      }
-
-      input, textarea {
-        border-radius: 0 !important;
+        font-family: $font-raleway-medium;
       }
 
     }
@@ -37,15 +33,15 @@
 
   &::after {
     background-image: url("../../images/welcome-decor.png");
-    content: '';
-    position: absolute;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    position: absolute;
+    content: '';
     z-index: 10;
     bottom: -40%;
-    left: -50%;
-    width: 100%;
+    left: -25%;
+    width: 50%;
     height: 50%;
   }
 
@@ -57,7 +53,7 @@
 /* Welcome Section */
 
 .welcome-section {
-  background: $blue-dark url("../../images/bg-welcome.jpg") no-repeat -175px 45% /cover;
+  background: $blue-dark url("../../images/bg-welcome.jpg") no-repeat -175px 45%  /cover;
   padding-top: 80px;
   padding-bottom: 120px;
 
@@ -107,7 +103,7 @@
     }
 
     p {
-      font-family: $Raleway;
+      font-family: $font-raleway;
     }
 
   }
@@ -115,8 +111,6 @@
   .doubleBackImage {
 
     &::before, &::after {
-      width: 85%;
-      height: 100%;
       content: '';
       position: absolute;
       background-repeat: no-repeat;
@@ -126,14 +120,18 @@
 
     &::before {
       background-image: url("../../images/rectangle1.png");
-      top: -70px;
+      width: 85%;
+      height: 85%;
+      top: 5%;
       left: 0;
     }
 
     &::after {
       background-image: url("../../images/rectangle2.png");
-      bottom: 0;
-      right: 0;
+      width: 85%;
+      height: 85%;
+      right: -7.5%;
+      bottom: -5%;
     }
 
     .misarranged {
@@ -141,24 +139,59 @@
       color: $gray;
       padding-top: 120px;
       padding-bottom: 100px;
-      border-radius: 2px;
       z-index: 1;
 
-      .img-fixed {
-      }
-
       p {
-        font-family: $MyriadPro-Light;
+        font-family: $font-myriad-light;
       }
 
     }
 
   }
 
-
 }
 
 /* /Welcome Section */
+
+/* How Work Section */
+
+.how-work-section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  .how-work-inner-2 {
+    padding-top: 200px;
+  }
+
+  .how-work-inner-4 {
+    padding-top: 230px;
+  }
+
+  .how-work-inner-middle-wrap {
+
+    &::before {
+      background-image: url("../../images/counter.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      content: '';
+      z-index: 1;
+      width: 150%;
+      height: 100%;
+      top: -10%;
+    }
+
+    .how-work-inner-middle {
+      z-index: 10;
+      position: relative;
+      top: -10%;
+    }
+  }
+
+}
+
+/* /How Work Section */
 
 /* Services Section */
 
@@ -168,10 +201,34 @@
   .carousel {
     max-height: 500px;
 
+    .carousel-item {
+
+      .carousel-image {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+      }
+
+      .carousel-caption {
+        top: unset;
+        right: unset;
+        bottom: unset;
+        left: unset;
+
+        .service-logo {
+          width: 100px;
+          height: 100px;
+        }
+
+      }
+
+    }
+
     .carousel-controls {
       z-index: 10;
       bottom: 53.5%;
-      left: 38.75%;
+      left: 39.25%;
       width: 90px;
 
       .carousel-control {
@@ -213,7 +270,7 @@
   }
 
   .featured-main-heading {
-    font-family: $Raleway-Bold;
+    font-family: $font-raleway-bold;
   }
 
   .featured-colored {
@@ -225,12 +282,12 @@
     padding-bottom: 50px;
 
     .featured-sub-heading {
-      font-family: $Raleway-Bold;
+      font-family: $font-raleway-bold;
       color: $gray-exdark;
     }
 
     p {
-      font-family: $Raleway;
+      font-family: $font-raleway;
     }
 
   }

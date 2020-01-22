@@ -20,7 +20,7 @@
 
             &.nav-item {
               width: 100%;
-              font-family: $MyriadPro-Bold;
+              font-family: $font-myriad-bold;
               border-bottom: 1px solid $blue;
 
               .nav-link {
@@ -119,12 +119,12 @@
         right: 0;
 
         .head {
-          font-family: $Raleway-Bold;
+          font-family: $font-raleway-bold;
           font-size: 3.0rem;
         }
 
         .lead {
-          font-family: $MyriadPro;
+          font-family: $font-myriad;
           max-width: 640px;
           letter-spacing: 1px;
         }

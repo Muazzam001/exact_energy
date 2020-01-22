@@ -7,7 +7,8 @@
                 <div class="row">
                     <div class="col-md-5 order-md-1">
                         <div class="inquiry-form-wrapper bg-blue-dark p-2 p-md-3 h-100">
-                            <h3 class="inquiry-form-heading text-white text-uppercase">Quick Inquiry</h3>
+                            <h3 class="inquiry-form-heading text-white text-uppercase text-center text-md-left">Quick
+                                Inquiry</h3>
                             <div class="inquiry-form-inner">
                                 <form action="">
                                     <div class="form-group">
