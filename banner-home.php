@@ -5,7 +5,7 @@
         <div id="banner-menu" class="banner-menu position-absolute w-100 h-100">
             <div class="banner-menu-wrapper d-flex flex-column justify-content-between h-100">
                 <div class="banner-menu-inner">
-                    <div class="banner-menu-logo mt-3 px-3">
+                    <div class="banner-menu-logo mt-3 px-3 py-4">
                         <div class="banner-logo-main text-center">
                             <img class="img-fluid" src="assets/images/logo.png" alt="Banner Logo">
                         </div>
@@ -24,7 +24,8 @@
                                     <li class="nav-item active py-1">
                                         <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
                                            href="#">
-                                            <img class="img-fluid" src="assets/images/icon-home.png" alt="nav-icon">
+                                            <!--                                            <img class="img-fluid" src="assets/images/icon-home.png" alt="nav-icon">-->
+                                            <i class="fas fa-home fa-2x nav-icon"></i>
                                             <span class="nav-text ml-2 mt-1">Home</span>
                                             <span class="sr-only">(current)</span>
                                         </a>
@@ -32,35 +33,40 @@
                                     <li class="nav-item py-1">
                                         <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
                                            href="#">
-                                            <img class="img-fluid" src="assets/images/icon-services.png" alt="nav-icon">
+                                            <!--                                            <img class="img-fluid" src="assets/images/icon-services.png" alt="nav-icon">-->
+                                            <i class="fas fa-bezier-curve fa-2x nav-icon"></i>
                                             <span class="nav-text ml-2 mt-1">Services</span>
                                         </a>
                                     </li>
                                     <li class="nav-item py-1">
                                         <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
                                            href="#">
-                                            <img class="img-fluid" src="assets/images/icon-news.png" alt="nav-icon">
+                                            <!--                                            <img class="img-fluid" src="assets/images/icon-news.png" alt="nav-icon">-->
+                                            <i class="far fa-newspaper fa-2x nav-icon"></i>
                                             <span class="nav-text ml-2 mt-1">Industries News</span>
                                         </a>
                                     </li>
                                     <li class="nav-item py-1">
                                         <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
                                            href="#">
-                                            <img class="img-fluid" src="assets/images/icon-careers.png" alt="nav-icon">
+                                            <!--                                            <img class="img-fluid" src="assets/images/icon-careers.png" alt="nav-icon">-->
+                                            <i class="fas fa-chess-queen fa-2x nav-icon"></i>
                                             <span class="nav-text ml-2 mt-1">Careers</span>
                                         </a>
                                     </li>
                                     <li class="nav-item py-1">
                                         <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
                                            href="#">
-                                            <img class="img-fluid" src="assets/images/icon-about.png" alt="nav-icon">
+                                            <!--                                            <img class="img-fluid" src="assets/images/icon-about.png" alt="nav-icon">-->
+                                            <i class="fas fa-indent fa-2x nav-icon"></i>
                                             <span class="nav-text ml-2 mt-1">About Us</span>
                                         </a>
                                     </li>
                                     <li class="nav-item py-1">
                                         <a class="nav-link text-uppercase d-inline-flex align-items-center pl-3 pr-1"
                                            href="#">
-                                            <img class="img-fluid" src="assets/images/icon-contact.png" alt="nav-icon">
+                                            <!--                                            <img class="img-fluid" src="assets/images/icon-contact.png" alt="nav-icon">-->
+                                            <i class="fas fa-phone-volume fa-2x nav-icon mt-n1 rotate-n45"></i>
                                             <span class="nav-text ml-2 mt-1">Contact Us</span>
                                         </a>
                                     </li>

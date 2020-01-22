@@ -215,5 +215,34 @@ a {
   background: $blue;
 }
 
+/*      Rotations      */
+
+//Forward Rotate
+
+@for $i from 0 through 360 {
+
+  .rotate-#{$i} {
+    transform: rotate(#{$i}deg);
+  }
+
+}
+
+//Forward Rotate End
+
+//Backward Rotate Start
+
+@for $i from 0 through 360 {
+
+  .rotate-n#{$i} {
+    transform: rotate(-#{$i}deg);
+  }
+
+}
+
+//Backward Rotate End
+
+/*      /Rotations      */
+
+
 /*      /DEFAULTS      */
 

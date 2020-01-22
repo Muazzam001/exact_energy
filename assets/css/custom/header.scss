@@ -34,6 +34,12 @@
                 min-height: 50px;
                 max-height: 50px;
                 border-left: 3px solid transparent;
+
+                .nav-icon {
+                  color: $blue;
+                  min-width: 2.5rem;
+                }
+
               }
 
               &.active, &:hover, &:focus, &:active {
@@ -41,6 +47,11 @@
                 .nav-link {
                   border-left: 3px solid $green;
                   color: $green;
+
+                  .nav-icon {
+                    color: $green;
+                  }
+
                 }
 
               }
