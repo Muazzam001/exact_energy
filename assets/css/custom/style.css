@@ -17536,6 +17536,11 @@ a {
 #banner .banner-menu .banner-menu-wrapper {
   z-index: 999;
 }
+#banner .banner-menu .banner-menu-wrapper .banner-menu-main .navbar-toggler {
+  z-index: 999;
+  top: -120px;
+  left: 20px;
+}
 #banner .banner-menu .banner-menu-wrapper .banner-menu-main .navbar-nav li.nav-item {
   width: 100%;
   font-family: MyriadPro-Bold, OpenSans, Arial, Helvetica, sans-serif;
@@ -17586,22 +17591,26 @@ a {
   background-size: cover;
 }
 #banner .carousel .carousel-item .carousel-caption {
-  position: absolute;
-  left: 250px;
-  right: 0;
+  position: unset;
+  margin-left: 250px;
+  top: unset;
+  right: unset;
+  bottom: unset;
+  left: unset;
 }
 #banner .carousel .carousel-item .carousel-caption .head {
   font-family: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
   font-size: 3rem;
 }
 #banner .carousel .carousel-item .carousel-caption .lead {
-  font-family: MyriadPro, OpenSans, Arial, Helvetica, sans-serif;
+  font-family: MyriadPro-Light, OpenSans, Arial, Helvetica, sans-serif;
+  font-weight: bold;
   max-width: 640px;
   letter-spacing: 1px;
 }
 #banner .carousel .next-section {
   position: absolute;
-  bottom: 25px;
+  bottom: 75px;
   left: 250px;
   right: 0;
   z-index: 999;

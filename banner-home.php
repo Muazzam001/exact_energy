@@ -15,9 +15,11 @@
                     </div>
                     <div class="banner-menu-main">
                         <nav class="navbar navbar-expand-lg px-0">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            <button class="navbar-toggler bg-blue-dark position-absolute border-radius-10" type="button"
+                                    data-toggle="collapse" data-target="#navbarNav"
                                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <!--                                <span class="navbar-toggler-icon"></span>-->
+                                <i class="fas fa-bars color-blue toggler-icon font-size-18"></i>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav flex-lg-column w-100">
@@ -124,35 +126,34 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('assets/images/banner.jpg')">
-                    <!--                    <img class="carousel-image" src="assets/images/banner.jpg" alt="Banner Image">-->
-                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
-                        <h3 class="head text-uppercase">Welcome to Exact <span
-                                    class="color-green">Energy.</span>
-                        </h3>
-                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy
-                            targets for multi family and single-family residential projects.</p>
+                    <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+                        <div class="h-100 text-center d-flex justify-content-center align-items-center flex-column">
+                            <h3 class="head text-uppercase">Welcome to Exact <span
+                                        class="color-green">Energy.</span>
+                            </h3>
+                            <p class="lead px-4 mx-auto my-0">We help home ownertts, builders and architectures to meet
+                                their energy targets for multi family and single-family residential projects.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">
-                    <!--                    <img class="carousel-image" src="assets/images/banner.jpg" alt="Banner Image">-->
-                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
-                        <h3 class="head text-uppercase">Welcome to Exact <span
-                                    class="color-green">Energy.</span>
-                        </h3>
-                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy
-                            targets for multi family and single-family residential projects.</p>
-                    </div>
-                </div>
-                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">
-                    <!--                    <img class="carousel-image" src="assets/images/banner.jpg" alt="Banner Image">-->
-                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">
-                        <h3 class="head text-uppercase">Welcome to Exact <span
-                                    class="color-green">Energy.</span>
-                        </h3>
-                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy
-                            targets for multi family and single-family residential projects.</p>
-                    </div>
-                </div>
+                <!--                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">-->
+                <!--                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">-->
+                <!--                        <h3 class="head text-uppercase">Welcome to Exact <span-->
+                <!--                                    class="color-green">Energy.</span>-->
+                <!--                        </h3>-->
+                <!--                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy-->
+                <!--                            targets for multi family and single-family residential projects.</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">-->
+                <!--                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">-->
+                <!--                        <h3 class="head text-uppercase">Welcome to Exact <span-->
+                <!--                                    class="color-green">Energy.</span>-->
+                <!--                        </h3>-->
+                <!--                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy-->
+                <!--                            targets for multi family and single-family residential projects.</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
             </div>
 
             <!-- Left and right controls -->
