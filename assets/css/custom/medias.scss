@@ -11,6 +11,64 @@
 /* Medium devices (tablets, less than 992px)*/
 @media screen and (max-width: 991.98px) {
 
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #banner {
+
+    .banner-menu {
+      left: -250px;
+      transition: left 0.5s ease-in-out 0.05s;
+
+      .banner-menu-wrapper {
+
+        .banner-menu-main {
+
+          .navbar-toggler {
+            z-index: 999;
+            top: -100px;
+            left: 270px;
+          }
+
+          .navbar-collapse {
+            display: block;
+          }
+
+        }
+
+      }
+
+      &.open-toggle {
+        left: 0;
+        transition: left 0.5s ease-in-out 0.05s;
+      }
+
+    }
+
+    .carousel {
+
+      .carousel-item {
+
+        .carousel-caption {
+          margin-left: 0;
+        }
+
+      }
+
+      .carousel-indicators {
+        left: 0;
+      }
+
+      .next-section {
+        left: 49%;
+      }
+
+    }
+
+  }
+
   .how-work-section {
 
     .how-work-inner-middle-wrap {
@@ -27,34 +85,6 @@
 
 /* Small devices (landscape phones, less than 768px)*/
 @media screen and (max-width: 767.98px) {
-
-  #banner {
-
-    .banner-menu {
-
-      .banner-menu-wrapper {
-        background: red;
-
-        .banner-menu-main {
-        }
-
-      }
-
-    }
-
-    .carousel {
-
-      .carousel-item {
-
-        .carousel-caption {
-
-        }
-
-      }
-
-    }
-
-  }
 
   .inquiry-form::after {
     bottom: -45%;

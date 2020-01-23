@@ -117,7 +117,7 @@
         <div id="banner-slider" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
-            <ul class="carousel-indicators mb-0 d-none d-md-flex">
+            <ul class="carousel-indicators mb-0 ">
                 <li data-target="#banner-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#banner-slider" data-slide-to="1"></li>
                 <li data-target="#banner-slider" data-slide-to="2"></li>
@@ -128,32 +128,40 @@
                 <div class="carousel-item active" style="background-image: url('assets/images/banner.jpg')">
                     <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
                         <div class="h-100 text-center d-flex justify-content-center align-items-center flex-column">
-                            <h3 class="head text-uppercase">Welcome to Exact <span
-                                        class="color-green">Energy.</span>
+                            <h3 class="head text-uppercase font-raleway-bold font-size-md-36 font-size-25">Welcome to
+                                Exact <span class="color-green">Energy.</span>
                             </h3>
-                            <p class="lead px-4 mx-auto my-0">We help home ownertts, builders and architectures to meet
-                                their energy targets for multi family and single-family residential projects.</p>
+                            <p class="lead font-myriad-light px-4 mx-auto my-0 font-size-md-18 font-size-13">We help
+                                home ownertts, builders and architectures to meet their energy targets for multi family
+                                and single-family residential projects.</p>
                         </div>
                     </div>
                 </div>
-                <!--                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">-->
-                <!--                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">-->
-                <!--                        <h3 class="head text-uppercase">Welcome to Exact <span-->
-                <!--                                    class="color-green">Energy.</span>-->
-                <!--                        </h3>-->
-                <!--                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy-->
-                <!--                            targets for multi family and single-family residential projects.</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">-->
-                <!--                    <div class="carousel-caption justify-content-md-center align-items-md-center flex-md-column h-100 text-center">-->
-                <!--                        <h3 class="head text-uppercase">Welcome to Exact <span-->
-                <!--                                    class="color-green">Energy.</span>-->
-                <!--                        </h3>-->
-                <!--                        <p class="lead px-4">We help home ownertts, builders and architectures to meet their energy-->
-                <!--                            targets for multi family and single-family residential projects.</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
+                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">
+                    <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+                        <div class="h-100 text-center d-flex justify-content-center align-items-center flex-column">
+                            <h3 class="head text-uppercase font-raleway-bold font-size-md-36 font-size-25">Welcome to
+                                Exact <span class="color-green">Energy.</span>
+                            </h3>
+                            <p class="lead font-myriad-light px-4 mx-auto my-0 font-size-md-18 font-size-13">We help
+                                home ownertts, builders and architectures to meet their energy targets for multi family
+                                and single-family residential projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('assets/images/banner.jpg')">
+                    <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+                        <div class="h-100 text-center d-flex justify-content-center align-items-center flex-column">
+                            <h3 class="head text-uppercase font-raleway-bold font-size-md-36 font-size-25">Welcome to
+                                Exact <span class="color-green">Energy.</span>
+                            </h3>
+                            <p class="lead font-myriad-light px-4 mx-auto my-0 font-size-md-18 font-size-13">We help
+                                home ownertts, builders and architectures to meet their energy targets for multi family
+                                and single-family residential projects.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Left and right controls -->
@@ -167,7 +175,7 @@
             <!--            </div>-->
 
             <!-- Next Section controls -->
-            <div class="next-section mb-0 d-none d-md-flex justify-content-center align-items-center">
+            <div class="next-section mb-0 justify-content-center align-items-center">
                 <a href="#inquiry-form">
                     <i class="fas fa-long-arrow-alt-down text-white"></i>
                 </a>

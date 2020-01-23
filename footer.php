@@ -30,8 +30,8 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <!-- Place your scripts here-->
-<script src="assets/js/custom/script.js"></script>
-<script src="assets/js/custom/jq-script.js"></script>
+<script src="assets/js/custom/script.js?t=<?= time() ?>"></script>
+<script src="assets/js/custom/jq-script.js?t=<?= time() ?>"></script>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!-- How It Works -->
-<section id="how-work-section" class="how-work-section position-relative">
+<section id="how-work-section" class="how-work-section position-relative section">
     <div class="container">
         <div class="row">
             <div class="col-md-1 d-none d-md-block"></div>
@@ -8,7 +8,7 @@
                     <span class="color-blue-dark">How It</span>
                     <span class="color-blue">Works</span>
                 </h3>
-                <div class="row h-100">
+                <div class="row">
                     <div class="col-12 col-md-4 pr-md-0">
                         <div class="d-flex flex-column justify-content-between">
                             <div class="how-work-inner how-work-inner-1 w-100 w-md-100 pl-0 pl-md-3 ml-md-1 pt-0 pt-md-5 mt-0 mt-md-4 mt-lg-5">

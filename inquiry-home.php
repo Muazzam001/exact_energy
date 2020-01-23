@@ -1,5 +1,5 @@
 <!--    inquiry     -->
-<section id="inquiry-form" class="inquiry-form position-relative">
+<section id="inquiry-form" class="inquiry-form position-relative section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
@@ -7,8 +7,8 @@
                 <div class="row">
                     <div class="col-md-5 order-md-1">
                         <div class="inquiry-form-wrapper bg-blue-dark p-2 p-md-3 h-100">
-                            <h3 class="inquiry-form-heading text-white text-uppercase text-center text-md-left">Quick
-                                Inquiry</h3>
+                            <h3 class="inquiry-form-heading text-white text-uppercase text-center text-md-left font-raleway-bold">
+                                Quick Inquiry</h3>
                             <div class="inquiry-form-inner">
                                 <form action="">
                                     <div class="form-group">
@@ -54,11 +54,13 @@
                             </div>
                             <div>
                                 <div class="bg-blue-dark text-white text-center text-uppercase px-5 py-3">
-                                    <h3 class="mb-0 heading">Need a Quick 6 Star Report for Your Home?</h3>
+                                    <h3 class="mb-0 heading font-raleway-bold">Need a Quick 6 Star Report for Your
+                                        Home?</h3>
                                     <h4 class="mb-0 p-1 subHeading">Call us at 7783187273</h4>
                                 </div>
                                 <div class="bg-green text-white text-center text-uppercase px-4 py-2">
-                                    <h4 class="text-uppercase mb-0 subHeading">Click here for CONTACT US</h4>
+                                    <h4 class="text-uppercase mb-0 subHeading font-raleway-medium">Click here for
+                                        CONTACT US</h4>
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 <!-- Services -->
-<section id="services-section" class="services-section position-relative">
+<section id="services-section" class="services-section position-relative section-padding">
 
     <div id="services-slider" class="carousel slide" data-ride="carousel">
 

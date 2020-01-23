@@ -17526,20 +17526,17 @@ a {
 }
 
 /*      /DEFAULTS      */
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /*      HEADER      */
 /* Home Banner */
 #banner .banner-menu {
   max-width: 250px;
   background: rgba(17, 41, 74, 0.8);
   z-index: 99;
-}
-#banner .banner-menu .banner-menu-wrapper {
-  z-index: 999;
-}
-#banner .banner-menu .banner-menu-wrapper .banner-menu-main .navbar-toggler {
-  z-index: 999;
-  top: -120px;
-  left: 20px;
 }
 #banner .banner-menu .banner-menu-wrapper .banner-menu-main .navbar-nav li.nav-item {
   width: 100%;
@@ -17598,40 +17595,23 @@ a {
   bottom: unset;
   left: unset;
 }
-#banner .carousel .carousel-item .carousel-caption .head {
-  font-family: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-}
 #banner .carousel .carousel-item .carousel-caption .lead {
-  font-family: MyriadPro-Light, OpenSans, Arial, Helvetica, sans-serif;
   font-weight: bold;
   max-width: 640px;
   letter-spacing: 1px;
 }
 #banner .carousel .next-section {
   position: absolute;
-  bottom: 75px;
-  left: 250px;
-  right: 0;
   z-index: 999;
+  bottom: 75px;
+  left: 57.5%;
+  right: unset;
 }
 
 /* /Home Banner */
 /*      /HEADER      */
 /*      MAIN      */
-.inquiry-form-heading, .welcome-heading, .contact-form-query .heading {
-  font-family: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
-}
-
-.contact-form-query .subHeading {
-  font-family: Raleway-Medium, OpenSans, Arial, Helvetica, sans-serif;
-}
-
 /* Inquiry Form */
-.inquiry-form {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
 .inquiry-form .inquiry-form-inner form input, .inquiry-form .inquiry-form-inner form textarea, .inquiry-form .inquiry-form-inner form button {
   font-family: Raleway-Medium, OpenSans, Arial, Helvetica, sans-serif;
 }
@@ -17653,8 +17633,6 @@ a {
 /* Welcome Section */
 .welcome-section {
   background: #11294a url("../../images/bg-welcome.jpg") no-repeat -175px 45%/cover;
-  padding-top: 80px;
-  padding-bottom: 120px;
 }
 .welcome-section::before {
   content: "";
@@ -17691,9 +17669,6 @@ a {
 .welcome-section .welcome-inner .welcome-heading {
   color: #499ed7;
 }
-.welcome-section .welcome-inner p {
-  font-family: Raleway, OpenSans, Arial, Helvetica, sans-serif;
-}
 .welcome-section .doubleBackImage::before, .welcome-section .doubleBackImage::after {
   content: "";
   position: absolute;
@@ -17722,21 +17697,21 @@ a {
   padding-bottom: 100px;
   z-index: 1;
 }
-.welcome-section .doubleBackImage .misarranged p {
-  font-family: MyriadPro-Light, OpenSans, Arial, Helvetica, sans-serif;
-}
 
 /* /Welcome Section */
 /* How Work Section */
 .how-work-section {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 100px;
 }
 .how-work-section .how-work-inner-2 {
   padding-top: 200px;
 }
 .how-work-section .how-work-inner-4 {
   padding-top: 230px;
+}
+.how-work-section .how-work-inner-middle-wrap {
+  max-height: 900px;
+  min-height: 900px;
 }
 .how-work-section .how-work-inner-middle-wrap::before {
   background-image: url("../../images/counter.png");
@@ -17812,22 +17787,9 @@ a {
   height: 100%;
   background-image: linear-gradient(to right, #11294a, #11294a, rgba(17, 41, 74, 0.9), rgba(17, 41, 74, 0.8), rgba(17, 41, 74, 0.85), rgba(17, 41, 74, 0.9));
 }
-.featured-section .featured-main-heading {
-  font-family: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
-}
-.featured-section .featured-colored {
-  background: #f1f1f1;
-}
 .featured-section .featured-inner {
   padding-top: 60px;
   padding-bottom: 50px;
-}
-.featured-section .featured-inner .featured-sub-heading {
-  font-family: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
-  color: #252a2c;
-}
-.featured-section .featured-inner p {
-  font-family: Raleway, OpenSans, Arial, Helvetica, sans-serif;
 }
 
 /* /Featured Section */
@@ -17850,13 +17812,44 @@ footer .footer-wrapper .footer-logo .img-logo {
 /* Large devices (desktops, less than 1200px)*/
 /* Custom Media Query (desktops, less than 1024px)*/
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
+@media screen and (max-width: 991.98px) {
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #banner .banner-menu {
+    left: -250px;
+    transition: left 0.5s ease-in-out 0.05s;
+  }
+  #banner .banner-menu .banner-menu-wrapper .banner-menu-main .navbar-toggler {
+    z-index: 999;
+    top: -100px;
+    left: 270px;
+  }
+  #banner .banner-menu .banner-menu-wrapper .banner-menu-main .navbar-collapse {
+    display: block;
+  }
+  #banner .banner-menu.open-toggle {
+    left: 0;
+    transition: left 0.5s ease-in-out 0.05s;
+  }
+  #banner .carousel .carousel-item .carousel-caption {
+    margin-left: 0;
+  }
+  #banner .carousel .carousel-indicators {
+    left: 0;
+  }
+  #banner .carousel .next-section {
+    left: 49%;
+  }
+
   .how-work-section .how-work-inner-middle-wrap::before {
     width: 200%;
   }
 }
 /* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .inquiry-form::after {
     bottom: -45%;
     left: -40%;
@@ -17921,7 +17914,7 @@ footer .footer-wrapper .footer-logo .img-logo {
   }
 }
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   .inquiry-form::after {
     width: 0;
     height: 0;
@@ -17951,7 +17944,7 @@ footer .footer-wrapper .footer-logo .img-logo {
 /**/
 /* MOBILE FIRST MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .font-size-sm-0 {
     font-size: 0rem !important;
   }
@@ -18531,7 +18524,7 @@ footer .footer-wrapper .footer-logo .img-logo {
   }
 }
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .font-size-md-0 {
     font-size: 0rem !important;
   }
@@ -19111,7 +19104,7 @@ footer .footer-wrapper .footer-logo .img-logo {
   }
 }
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .font-size-lg-0 {
     font-size: 0rem !important;
   }
@@ -19693,7 +19686,7 @@ footer .footer-wrapper .footer-logo .img-logo {
 /* Customized Media Queries (Min Width) */
 /* Customized Media Queries (Min Width) */
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .font-size-xl-0 {
     font-size: 0rem !important;
   }

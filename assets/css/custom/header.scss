@@ -10,15 +10,8 @@
     z-index: 99;
 
     .banner-menu-wrapper {
-      z-index: 999;
 
       .banner-menu-main {
-
-        .navbar-toggler {
-          z-index: 999;
-          top: -120px;
-          left: 20px;
-        }
 
         .navbar-nav {
 
@@ -119,16 +112,6 @@
       -o-background-size: cover;
       background-size: cover;
 
-      //&::before {
-      //  content: '';
-      //  width: 100%;
-      //  height: 100%;
-      //  top: 0;
-      //  left: 0;
-      //  position: absolute;
-      //  background: rgba(17, 41, 74,0.4);
-      //}
-
       .carousel-caption {
         position: unset;
         margin-left: 250px;
@@ -138,12 +121,9 @@
         left: unset;
 
         .head {
-          font-family: $font-raleway-bold;
-          font-size: 3.0rem;
         }
 
         .lead {
-          font-family: $font-myriad-light;
           font-weight: bold;
           max-width: 640px;
           letter-spacing: 1px;
@@ -155,10 +135,10 @@
 
     .next-section {
       position: absolute;
-      bottom: 75px;
-      left: 250px;
-      right: 0;
       z-index: 999;
+      bottom: 75px;
+      left: 57.5%;
+      right: unset;
     }
 
   }

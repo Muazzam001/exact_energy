@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
 
     <!-- Place your stylesheet here-->
-    <link rel="stylesheet" type="text/css" href="assets/css/custom/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom/style.css?t=<?= time() ?>">
 
 </head>
 
