@@ -1,3 +1,3 @@
 # EXACT ENERGY WEBSITE LAYOUT DESIGN
 
-[link to Website!](https://www.threecourt.com)
+[Exact Energy Website!](https://exact-energy.ca)
